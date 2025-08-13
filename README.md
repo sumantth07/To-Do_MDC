@@ -6,6 +6,7 @@ A responsive and visually appealing to-do list application built with HTML, CSS,
  Screenshots
 Here are a few screenshots showcasing the application's design and functionality.
 <img width="1915" height="904" alt="image" src="https://github.com/user-attachments/assets/a87ac6ca-8654-4d3c-bf4b-3c4e18b38a14" />
+after adding tasks
 <img width="1918" height="904" alt="image" src="https://github.com/user-attachments/assets/2916fb73-9c04-473c-88ca-d61e59f73dbb" />
 
 
