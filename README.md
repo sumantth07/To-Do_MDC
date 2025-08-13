@@ -46,7 +46,7 @@ Vanilla JavaScript: For all the logic, including DOM manipulation, event handlin
 How to Use
 Clone the repository:
 
-git clone https://github.com/your-username/your-repo-name.git
+git clone [https://github.com/your-username/your-repo-name.git](https://github.com/sumantth07/To-Do_MDC.git)
 
 Open the file:
 Navigate to the project directory and open the index.html file in any modern web browser.
