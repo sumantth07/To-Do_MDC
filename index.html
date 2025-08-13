@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <title>To Do List</title>
+  <link rel="icon" type="image/png" href="images.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <button id="reset-button">Reset All</button>
+    <img src="mainlogo.jpeg" alt="TO-DO LIST" class="title-image">
+    <div class="content-wrapper">
+        <div class="input-section">
+            <div class="input-area">
+                <input id="task" placeholder="Enter the task">
+                <input id="task-time" type="datetime-local">
+                <button id="enter-button">Enter</button>
+            </div>
+        </div>
+
+        <div class="list">
+            <ul id="listof">
+            </ul>
+        </div>
+    </div>
+  </div>
+  <script src="ToDoJS.js"></script>
+</body>
+</html>
