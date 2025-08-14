@@ -193,4 +193,98 @@ li:hover {
 .title-image:hover {
  transform: scale(1.02);
 }
+@media screen and (max-width: 768px) {
+ .content-wrapper {
+  flex-direction: column;
+  gap: 20px;
+ }
+ 
+ .input-section, .list {
+  flex: 0 0 100%;
+  height: auto;
+  position: static;
+ }
+
+ .title-image {
+  max-width: 300px;
+  margin: 0 auto 30px;
+ }
+
+ #reset-button {
+  padding: 10px 20px;
+  font-size: 14px;
+ }
+}
+
+@media screen and (max-width: 480px) {
+ body {
+  padding: 15px;
+ }
+
+ .container {
+  width: 100%;
+  gap: 20px;
+ }
+
+ .input-section, .list {
+  padding: 20px;
+  border-radius: 15px;
+ }
+
+ .input-area input {
+  padding: 10px;
+  font-size: 14px;
+ }
+
+ .title-image {
+  max-width: 250px;
+  margin: 0 auto 20px;
+ }
+
+ li {
+  padding: 12px;
+  font-size: 14px;
+ }
+
+ .task-text {
+  font-size: 1em;
+ }
+
+ .task-time {
+  font-size: 0.75em;
+ }
+
+ .done-button {
+  padding: 6px 10px;
+  font-size: 12px;
+ }
+
+ #reset-button {
+  top: 10px;
+  right: 10px;
+  padding: 8px 16px;
+  font-size: 12px;
+ }
+}
+
+@media screen and (max-width: 320px) {
+ .title-image {
+  max-width: 200px;
+ }
+
+ .input-section, .list {
+  padding: 15px;
+ }
+
+ .input-area {
+  gap: 10px;
+ }
+}
+
+@media (prefers-reduced-motion: reduce) {
+ * {
+  transition: none !important;
+  transform: none !important;
+ }
+}
 
